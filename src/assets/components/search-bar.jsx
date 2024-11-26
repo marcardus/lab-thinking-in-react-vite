@@ -7,7 +7,7 @@ function SearchBar({ setSearch, setStock }) {
             <p className="m-0 text-center">Search</p>
 
             <div className="input-group flex-nowrap">
-                <input type="text" class="form-control" placeholder="Product..." aria-label="Product search" aria-describedby="basic-addon2" />
+                <input type="text" class="form-control" placeholder="Product..." aria-describedby="addon-wrapping" onChange={(e) => setSearch(e.target.value)}/>
 
             </div>
 
